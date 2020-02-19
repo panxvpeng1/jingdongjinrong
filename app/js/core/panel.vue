@@ -25,5 +25,7 @@
 </script>
 <style lang="scss">
 @import '../../css/element.scss';
-  
+  .pnel{
+      @include panel;
+  }
 </style>
