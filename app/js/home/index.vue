@@ -10,7 +10,6 @@
       <Product/>
       <Footer/>
       <Navbar/>
-
    </div>
 </template>
 

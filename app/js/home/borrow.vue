@@ -24,7 +24,6 @@ export default {
 <style lang="scss" module>
 @import '../../css/element';
 .panel{
-  
     @include panel;
     .content{
         padding-bottom: 40px;
