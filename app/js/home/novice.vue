@@ -70,12 +70,13 @@ export default {
                 padding-top: 0;
                 li{
                     padding: 40px 0 0 0;
-                   height: 100px;
-                   position: relative;
+                    height: 120px;
+                    position: relative;
                     &:first-child{
                         border-bottom:1px solid #bbb;
                         img{
                             position: absolute;
+                            width: 100px;
                             right: 0;
                             top: 10px;
                         }
@@ -83,6 +84,7 @@ export default {
                     &:last-child{
                         img{
                             position: absolute;
+                            width: 100px;
                             right: 0;
                             top: 25px;
                         }

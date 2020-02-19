@@ -77,7 +77,7 @@ export default {
     .item{
         text-align: center;
         img{
-            display: inline-block;
+            
             width: 90px;
             height: 90px;
         }
