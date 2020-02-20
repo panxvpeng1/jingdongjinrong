@@ -18,25 +18,25 @@ export default {
     },
     data(){
         return{
-            title:'理财精选',
+            title:'精选推荐',
             items:[
                 {
                     title:'定期理财',
-                    sub:'理财首选',
-                    ratel:'5.60%',
-                    text:'历史年化回报率'
+                    sub:'90天可质押',
+                    ratel:'5.50%',
+                    text:'历史年化结算利率'
                 },
                 {
-                    title:'小白理财',
+                    title:'固收理财',
                     sub:'理财首选',
-                    ratel:'4.22%',
-                    text:'7日年化收益率'
+                    ratel:'5.80%',
+                    text:'综合年化收益率'
                 },
                 {
-                    title:'月月盈',
-                    sub:'养老保障',
-                    ratel:'5%',
-                    text:'七日年化收益率'
+                    title:'基智账户',
+                    sub:'组合投资',
+                    ratel:'8%-10%',
+                    text:'止盈年化收益率'
                 },
                 {
                     title:'小白基金',
@@ -60,9 +60,6 @@ export default {
         justify-content: space-around;
         box-sizing: border-box;
         .item{
-            &:nth-child(2n+1){
-                border-right: 1px solid #bbb;
-            }
             &:nth-child(1){
                 border-bottom: 1px solid #bbb;
             }
@@ -75,6 +72,7 @@ export default {
             text-align: center;
             width: 50%;
             dt{
+                text-align: center;
                 font-size: 30px;color: #333;
                 span{
                     text-align: center;
