@@ -60,6 +60,9 @@ module.exports = {
     },
    
     resolve: {
+      extensions: [
+        '.js', '.vue', '.json'
+      ],
         alias: {
           'vue$': 'vue/dist/vue.esm.js' // 用 webpack 1 时需用 'vue/dist/vue.common.js'
         }
