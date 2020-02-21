@@ -73,14 +73,14 @@ export default {
             width: 50%;
             dt{
                 text-align: center;
-                font-size: 30px;color: #333;
+                font-size: 28px;color: #333;
                 span{
                     text-align: center;
-                    vertical-align: 4px;
+                    vertical-align: 3px;
                     height:30px;
                     line-height: 30px;
                     position: relative;
-                    padding: 0 10px 0 10px;    
+                    padding: 0 5px 0 5px;    
                     display: inline-block;
                     font-size: 16px;
                     margin-left: 20px;

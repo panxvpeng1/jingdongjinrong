@@ -1,20 +1,20 @@
 <template>
-    <Panel title="理财精选" :class="$style.panel">
+    <Panel title="白条福利" :class="$style.panel">
         <section :class="$style.content">
             <div>
-                <h4>月度理财</h4>
-                <p>预期年化收益率4.50%</p>
-                <span><a href="#">去赚钱 &gt;</a></span>
+                <h4>开通白条</h4>
+                <p>送188元礼包</p>
+                <span><a href="#">立即开通 &gt;</a></span>
             </div>
             <div>
-                <h4>季度理财</h4>
-                <p>预期年化收益率4.50%</p>
-                <span><a href="#">去赚钱 &gt;</a></span>
+                <h4>白条闪付</h4>
+                <p>新手享158元礼包</p>
+                <span><a href="#">随机立减 &gt;</a></span>
             </div>
             <div>
-                <h4>一年理财</h4>
-                <p>预期年化收益率4.50%</p>
-                <span><a href="#">去赚钱 &gt;</a></span>
+                <h4>白条提额</h4>
+                <p>金融app专享提额礼包</p>
+                <span><a href="#">去提额 &gt;</a></span>
             </div>
         </section>
     </Panel>
